@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- Sports -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sports"
+        />
+
+    <!-- bouton badminton -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/badminton"
+        android:id="@+id/btnBadminton"
+        />
+
+    <!-- bouton volleyball -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/volley"
+        android:id="@+id/btnVolley"
+        />
+
+    <!-- bouton baseball -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/baseball"
+        android:id="@+id/btnBaseball"
+        />
+
+</ListView>

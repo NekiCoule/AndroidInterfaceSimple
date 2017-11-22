@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Label pour la civilité -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/civilite"
+        android:id="@+id/lblCivilite"
+        />
+
+    <!-- Les radio buttons pour la civilité -->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblCivilite"
+        android:id="@+id/rbtGroubeCivilite">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monsieur"
+            android:id="@+id/rbtMonsieur" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/madame"
+            android:id="@+id/rbtMadame"
+            />
+    </RadioGroup>
+
+    <!-- Nom -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbtGroubeCivilite"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:text="@string/nom"
+        android:id="@+id/txtNom"
+        />
+
+    <!-- Prenom -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNom"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:text="@string/prenom"
+        android:id="@+id/txtPrenom"
+        />
+
+    <!-- Date de naissance -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPrenom"
+        android:inputType="date"
+        android:text="@string/dateNaissance"
+        android:id="@+id/txtDateNaissance"
+        />
+
+    <!-- Email -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDateNaissance"
+        android:layout_alignParentLeft="true"
+        android:inputType="textEmailAddress"
+        android:text="@string/email"
+        android:id="@+id/txtEmail"
+        />
+
+    <!-- Adresse -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_alignParentLeft="true"
+        android:inputType="text"
+        android:text="@string/adresse"
+        android:id="@+id/txtAdresse"
+        />
+
+    <!-- Zone de commentaire -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAdresse"
+        android:layout_alignParentLeft="true"
+        android:inputType="textMultiLine"
+        android:text="@string/commentaire"
+        android:id="@+id/txtCommentaire"
+        />
+    <!-- Bouton de validation -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCommentaire"
+        android:text="@string/valider"
+        android:id="@+id/btnValider"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TP Applis mobiles interfaces simples</string>
+    <string name="start">Start</string>
+    <string name="civilite">Civilité : </string>
+    <string name="monsieur">M.</string>
+    <string name="madame">Mme.</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="dateNaissance">Date de naissance</string>
+    <string name="email">Adresse Email</string>
+    <string name="adresse">Adresse postale</string>
+    <string name="commentaire">Zone de texte pour vos commentaires</string>
+    <string name="valider">Valider</string>
+    <string name="sports">Sports</string>
+    <string name="accueil">Accueil</string>
+    <string name="badminton">Badminton</string>
+    <string name="volley">Volleyball</string>
+    <string name="baseball">Baseball</string>
+    <string name="infsDefaut">Information par défaut</string>
+
+</resources>
